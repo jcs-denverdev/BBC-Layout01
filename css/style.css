@@ -28,11 +28,8 @@ html {
 
 body {
   margin: 0;
+  font-family: "BBC Reith Sans", BBCReithSans-fallback, sans-serif;
 }
-
-/******************************************
-/* LAYOUT
-/*******************************************/
 
 /* @media (max-width: 500px) {
   
@@ -47,6 +44,10 @@ body {
 } */
 
 @media (min-width: 1200px) {
+
+/******************************************
+/* LAYOUT
+/*******************************************/
 
   header {
     height: 60px;
