@@ -95,7 +95,6 @@ body {
     height: 32px;
   }
 
-
   div > h1 {
     float: left;
     margin: 0;
@@ -113,70 +112,78 @@ body {
     color: grey;
   }
 
-  .topHeadlines {
-    float: left;
-    width: 50%;
-  }
+  /* .two-col {
+    width: 100%;
+  } */
 
-  section.headline {
+  .headline {
     background-image: url("/images/bbc-headline.png");
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
+    float: left;
     margin: 0 0 0 10px;
   }
 
-  h3 {
+  .headline_text-container {
+    
+  }
+
+  .headline_text-container h3 {
     font-size: 3rem;
-    padding-top: 260px;
     padding-left: 20px;
+    /* padding-top: 260px;
+    padding-left: 20px; */
   }
-
-  section.headline p, section.headline span {
+  
+  .headline p, .headline span {
     font-size: 1.7rem;
-    color: rgb(255, 255,255);
+    color: rgb(255,255,255);
   }
 
-  section.headline p {
+  .headline p {
     padding-left: 20px;
   }
 
-  section.headline span {
+  .headline span {
     border-left: 3px solid red;
     margin-left: 20px;
     padding-left: 5px;
+    text-transform: uppercase;
   }
 
   .subHeadlines {
+    border: 2px solid orange;
     float: left;
-    width: 50%;
+  }
+
+  .subHeadlines section {
+    font-size: 2em;
+  }
+
+  .articles {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
   }
 
   .subHeadlines > section {
     background-image: url("/images/bbc-us-canada.png");
-    background-repeat: no-repeat;
-    color: white;
   }
 
   .subHeadlines section + section {
     background-image: url("/images/bbc-covid.png");
-    background-repeat: no-repeat;
-    color: white;
   }
 
   .subHeadlines section + section + section {
     background-image: url("/images/bbc-productivity.png");
-    background-repeat: no-repeat;
-    color: white;
   }
 
   .subHeadlines section + section + section + section {
     background-image: url("/images/bbc-folksinger.png");
-    background-repeat: no-repeat;
-    color: white;
   }
 
-}
+} /* end @media (min-width: 1200px) */
 
 
 
