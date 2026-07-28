@@ -98,18 +98,18 @@ body {
 
   div > h1 {
     float: left;
-    width: 85%;
-    padding-top: 20px;
-    padding-left: 10px;
-    text-align: left;
     margin: 0;
+    padding: 30px;
+    width: 80%;
+    font-size: 3em;
   }
 
   div span {
-    width: 15%;
+    width: 20%;
     float: left;
-    font-size: 2rem;
-    padding: 20px 0 0 35px;
+    font-size: 2em;
+    text-align: right;
+    padding: 35.5px 10px;
     color: grey;
   }
 
