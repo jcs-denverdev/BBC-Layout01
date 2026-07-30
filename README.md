@@ -4,5 +4,7 @@ Responsive layout practice was to copy the version of the British Broadcasting C
 ## How It's Made
 **Tech used:** HTML, CSS
 
+The CSS contains floats, rather than modern flexbox and grid.
+
 ## Lessons Learned
 My first version of this layout did not have any media queries. This version was made with responsiveness in mind. While designing the copy of this layout, I learned .....
