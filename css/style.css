@@ -118,7 +118,7 @@ div span {
 }
 
 section.headline {
-  background-image: url("bbc-headline.png");
+  background-image: url("/images/bbc-headline.png");
   background-size: 100%;
   background-repeat: no-repeat;
   color: white;
@@ -152,25 +152,25 @@ section.headline span {
 }
 
 .subHeadlines > section {
-  background-image: url("bbc-us-canada.png");
+  background-image: url("/images/bbc-us-canada.png");
   background-repeat: no-repeat;
   color: white;
 }
 
 .subHeadlines section + section {
-  background-image: url("bbc-covid.png");
+  background-image: url("/images/bbc-covid.png");
   background-repeat: no-repeat;
   color: white;
 }
 
 .subHeadlines section + section + section {
-  background-image: url("bbc-productivity.png");
+  background-image: url("/images/bbc-productivity.png");
   background-repeat: no-repeat;
   color: white;
 }
 
 .subHeadlines section + section + section + section {
-  background-image: url("bbc-folksinger.png");
+  background-image: url("/images/bbc-folksinger.png");
   background-repeat: no-repeat;
   color: white;
 }
