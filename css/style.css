@@ -34,143 +34,161 @@ body {
 /* LAYOUT
 /*******************************************/
 
-header {
-  height: 45px;
-  background: black;
-  color: white;
+/* @media (max-width: 500px) {
+  
+
+
+} */
+
+/* @media (max-width: 1000px) {
+
+
+
+} */
+
+@media (min-width: 1200px) {
+
+  header {
+    height: 60px;
+    background: black;
+  }
+
+  header nav * {
+    float: left;
+    height: 45px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  /* bbc logo */
+  header nav img {
+    float: left;
+    border-right: 1px solid white;
+  }
+
+  header nav img + img {
+    border: none;
+    padding-left: 10px;
+  }
+
+  /* sign-in element in nav */
+  header nav img > a {
+    width: 15%;
+    border-right: 1px solid white;
+  }
+
+  header nav ul {
+    float: left;
+    width: 70%; /* equal to 720px on laptop */
+    list-style: none;
+    padding-inline-start: 0; /* user agent stylesheet had 40px */
+    margin: 0;
+  }
+
+  header nav ul li {
+    border-right: 1px solid white;
+    padding-top: 13px;
+  }
+
+  header nav form {
+    width: 15%;
+    padding-top: 6px;
+  }
+
+  header nav form input {
+    width: 90%;
+    height: 30px;
+    
+  }
+
+  header nav ul li, header nav ul li a {
+    width: 90px;
+    text-align: center;
+  }
+
+  /* everything under the header */
+  .topHeadlines {
+    float: left;
+    width: 50%;
+  }
+
+  div > h1 {
+    float: left;
+    width: 85%;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: left;
+    margin: 0;
+  }
+
+  div span {
+    width: 15%;
+    float: left;
+    font-size: 2rem;
+    padding: 20px 0 0 35px;
+    color: grey;
+  }
+
+  section.headline {
+    background-image: url("/images/bbc-headline.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 0 0 10px;
+  }
+
+  h3 {
+    font-size: 3rem;
+    padding-top: 260px;
+    padding-left: 20px;
+  }
+
+  section.headline p, section.headline span {
+    font-size: 1.7rem;
+    color: rgb(255, 255,255);
+  }
+
+  section.headline p {
+    padding-left: 20px;
+  }
+
+  section.headline span {
+    border-left: 3px solid red;
+    margin-left: 20px;
+    padding-left: 5px;
+  }
+
+  .subHeadlines {
+    float: left;
+    width: 50%;
+  }
+
+  .subHeadlines > section {
+    background-image: url("/images/bbc-us-canada.png");
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .subHeadlines section + section {
+    background-image: url("/images/bbc-covid.png");
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .subHeadlines section + section + section {
+    background-image: url("/images/bbc-productivity.png");
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .subHeadlines section + section + section + section {
+    background-image: url("/images/bbc-folksinger.png");
+    background-repeat: no-repeat;
+    color: white;
+  }
+
 }
 
-header nav * {
-  float: left;
-  height: 45px;
-  font-size: 1.5rem;
-  color: white;
-  text-decoration: none;
-}
 
-/* bbc logo */
-header nav img {
-  float: left;
-  border-right: 1px solid white;
-}
 
-header nav img + img {
-  border: none;
-  padding-left: 10px;
-}
-
-/* sign-in element in nav */
-header nav img > a {
-  width: 15%;
-  border-right: 1px solid white;
-}
-
-header nav ul {
-  float: left;
-  width: 70%; /* equal to 720px on laptop */
-  list-style: none;
-  padding-inline-start: 0; /* user agent stylesheet had 40px */
-  margin: 0;
-}
-
-header nav ul li {
-  border-right: 1px solid white;
-  padding-top: 13px;
-}
-
-header nav form {
-  width: 15%;
-  padding-top: 6px;
-}
-
-header nav form input {
-  width: 90%;
-  height: 30px;
-   
-}
-
-header nav ul li, header nav ul li a {
-  width: 90px;
-  text-align: center;
-}
-
-/* everything under the header */
-.topHeadlines {
-  float: left;
-  width: 50%;
-}
-
-div > h1 {
-  float: left;
-  width: 85%;
-  padding-top: 20px;
-  padding-left: 10px;
-  text-align: left;
-  margin: 0;
-}
-
-div span {
-  width: 15%;
-  float: left;
-  font-size: 2rem;
-  padding: 20px 0 0 35px;
-  color: grey;
-}
-
-section.headline {
-  background-image: url("/images/bbc-headline.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color: white;
-  margin: 0 0 0 10px;
-}
-
-h3 {
-  font-size: 3rem;
-  padding-top: 260px;
-  padding-left: 20px;
-}
-
-section.headline p, section.headline span {
-  font-size: 1.7rem;
-  color: rgb(255, 255,255);
-}
-
-section.headline p {
-  padding-left: 20px;
-}
-
-section.headline span {
-  border-left: 3px solid red;
-  margin-left: 20px;
-  padding-left: 5px;
-}
-
-.subHeadlines {
-  float: left;
-  width: 50%;
-}
-
-.subHeadlines > section {
-  background-image: url("/images/bbc-us-canada.png");
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.subHeadlines section + section {
-  background-image: url("/images/bbc-covid.png");
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.subHeadlines section + section + section {
-  background-image: url("/images/bbc-productivity.png");
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.subHeadlines section + section + section + section {
-  background-image: url("/images/bbc-folksinger.png");
-  background-repeat: no-repeat;
-  color: white;
-}
