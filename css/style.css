@@ -96,6 +96,11 @@ body {
     height: 32px;
   }
 
+  div {
+    float: left;
+    width: 100%;
+  }
+
   div > h1 {
     float: left;
     margin: 0;
@@ -109,48 +114,47 @@ body {
     float: left;
     font-size: 2em;
     text-align: right;
-    padding: 35.5px 10px;
+    padding: 35.5px 15px;
     color: grey;
   }
 
-  /* .two-col {
-    width: 100%;
-  } */
+  .two-column {
+    background-color: aquamarine;
+    margin: 0 10px;
+  }
 
-  .headline {
+  .top_headline {
     background-image: url("/images/bbc-headline.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     float: left;
-    margin: 0 0 0 10px;
+    width: 50%;
   }
 
-  .headline_text-container {
-    
+  article {
+    margin: 50px 15px;
+    background-color: rgba(137, 137, 137, 0.74);
   }
 
-  .headline_text-container h3 {
+  article h3 {
     font-size: 3rem;
-    padding-left: 20px;
-    /* padding-top: 260px;
-    padding-left: 20px; */
-  }
-  
-  .headline p, .headline span {
-    font-size: 1.7rem;
-    color: rgb(255,255,255);
+    font-weight: 300;
   }
 
-  .headline p {
-    padding-left: 20px;
+  article p, article span {
+    color:rgb(249, 249, 249);
   }
 
-  .headline span {
+  article p {
+    font-size: 1.7em;
+  }
+
+  article span {
     border-left: 3px solid red;
-    margin-left: 20px;
-    padding-left: 5px;
+    padding-left: 8px;
     text-transform: uppercase;
+    font-size: 1.4em;
   }
 
   .subHeadlines {
@@ -162,11 +166,15 @@ body {
     font-size: 2em;
   }
 
-  .articles {
+  /* .articles {
+    float: left;
+  } */
+
+  /* .articles {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-  }
+  } */
 
   .subHeadlines > section {
     background-image: url("/images/bbc-us-canada.png");
