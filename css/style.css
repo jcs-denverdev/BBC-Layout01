@@ -140,8 +140,9 @@ body {
     font-weight: 300;
   }
 
-  article p, article span {
-    color: rgb(249, 249, 249);
+  article p,
+  article span {
+    color: rgb(225, 225, 225);
   }
 
   article p {
@@ -157,21 +158,32 @@ body {
 
   .sub_headlines {
     float: left;
-    width: 55%;
-    display: block;
+    width: 50%;
     background-color: rgb(94, 94, 141);
+    margin-left: 15px;
   }
 
-  .left_col .articles, .right_col .articles {
+  .left_col,
+  .right_col {
+    float: left;
     width: 50%;
+  }
+
+  .left_col .articles,
+  .right_col .articles {
+    float: left;
+    width: 100%;
+    min-height: 150px;
     border: 1px solid black;
+    box-sizing: border-box;
   }
 
   .articles {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     color: white;
     float: left;
+    width: 100%;
     /* padding: 20px 10px 5px 10px; */
   }
 
@@ -188,23 +200,19 @@ body {
   }
 
   .left_col > section {
-    /* background-image: url("/images/bbc-us-canada.png"); */
-    /* width: 25%; */
+    background-image: url("/images/bbc-us-canada.png");
   }
 
   .left_col section + section {
-    /* background-image: url("/images/bbc-productivity.png"); */
-    /* width: 25%; */
+    background-image: url("/images/bbc-productivity.png");
   }
 
   .right_col section {
-    /* background-image: url("/images/bbc-covid.png"); */
-    /* width: 25%; */
+    background-image: url("/images/bbc-covid.png");
   }
 
   .right_col section + section {
-    /* background-image: url("/images/bbc-folksinger.png"); */
-    /* width: 25%; */
+    background-image: url("/images/bbc-folksinger.png");
   }
 
 /* } end @media (min-width: 1200px) */
