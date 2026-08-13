@@ -124,7 +124,7 @@ body {
 
   .top_headline {
     background-image: url("/images/bbc-headline.png");
-    /* background-size: contain; */
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     float: left;
@@ -132,13 +132,11 @@ body {
   }
 
   article {
-    margin: 10% 5%;
-    padding: 15px;
-    background-color: rgba(158, 149, 137, 0.783);
+    margin: 25% 5% 2% 5%;
   }
 
   article h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 300;
   }
 
