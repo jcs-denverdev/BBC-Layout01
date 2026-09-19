@@ -24,7 +24,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "BBC Reith Sans", BBCReithSans-fallback, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /**
@@ -430,11 +430,13 @@ template {
   header nav select {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 20px;
+    padding-right: 50px;
   }
 
   header nav form {
     border-right: none;
+    
   }
 
   /* header nav form input {
