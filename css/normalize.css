@@ -424,21 +424,23 @@ template {
   }
 
   header nav ul li a {
-    padding: 20px 35px;
+    padding: 20px 30px;
   }
 
-  /* header nav ul li:first-child a {
-    padding-right: 50px;
-  } */
+  header nav select {
+    background-color: black;
+    color: white;
+  }
 
   header nav form {
     border-right: none;
-    padding: 1%;
   }
 
-  header nav form input {
-    height: 32px;
-  }
+  /* header nav form input {
+    height: 30px;
+  } */
+
+
 
   main div {
     width: 100%;
