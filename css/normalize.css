@@ -460,7 +460,7 @@ template {
     color: grey;
   }
 
-  section {
+  main section {
     height: 400px;
     width: 25%;
     float: left;
@@ -567,18 +567,15 @@ template {
       linear-gradient(rgba(0, 0, 0, 0.083),rgb(0,0,0,0.5)),
       url("/images/bbc-us-canada.jpg");
   }
-
   .second-col + .second-col {
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.083),rgb(0,0,0,0.5)),
       url("/images/bbc-productivity.png");
   }
-
   section > .third-col {
     background-image: linear-gradient(rgba(0, 0, 0, 0.083),rgb(0,0,0,0.5)),
     url("/images/bbc-covid.jpg");
   }
-
   .third-col + .third-col {
     background-image: linear-gradient(rgba(0, 0, 0, 0.083),rgb(0,0,0,0.5)),
     url("/images/bbc-folksinger.jpg");
@@ -602,11 +599,28 @@ template {
 
   .newsSection section {
     width: 33.33%;
+    height: 450px;
     float: left;
+    margin: 0 auto;
+    padding: 10px;
   }
 
   .newsSection img {
     width: 100%;
+  }
+
+  .newsSection section h3 {
+    font-size: 2em;
+  }
+
+  .newsSection section p {
+    font-size: 1.5em;
+  }
+
+  .newsSection section span {
+    border-left: 3px solid red;
+    padding-left: 10px;
+    font-size: 1.3em;
   }
 
 /* } end @media (min-width: 1200px) */
