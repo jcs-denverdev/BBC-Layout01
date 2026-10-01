@@ -562,20 +562,28 @@ template {
     font-size: 1.4em;
   }
 
-  .left_col > section {
+  section > .second-col {
     background-image: url("/images/bbc-us-canada.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .left_col section + section {
+  .second-col + .second-col {
     background-image: url("/images/bbc-productivity.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .right_col section {
+  section > .third-col {
     background-image: url("/images/bbc-covid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .right_col section + section {
+  .third-col + .third-col {
     background-image: url("/images/bbc-folksinger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 /* } end @media (min-width: 1200px) */
