@@ -532,9 +532,6 @@ template {
   }
 
   .headline_squares article {
-    /* margin: 0 auto;
-    width: 95%;
-    padding-top: 20%; */
     position: relative;
     top: 75px;
     left: 10px;
@@ -547,10 +544,22 @@ template {
   }
 
   .headline_squares span {
-    border-left: 3px solid red;
     padding-left: 8px;
     text-transform: uppercase;
     font-size: 1.4em;
+  }
+
+  .headline_squares article #square1 {
+    border-left: 3px solid rgb(71,161,216);
+  }
+  .headline_squares article #square2 {
+    border-left: 3px solid rgb(71,161,216);
+  }
+  .headline_squares article #square3 {
+    border-left: 3px solid red;
+  }
+  .headline_squares article #square4 {
+    border-left: 3px solid rgb(55,46,103);
   }
 
   section > .second-col {
@@ -574,5 +583,7 @@ template {
     background-image: linear-gradient(rgba(0, 0, 0, 0.083),rgb(0,0,0,0.5)),
     url("/images/bbc-folksinger.jpg");
   }
+
+  
 
 /* } end @media (min-width: 1200px) */
