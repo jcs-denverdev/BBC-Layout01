@@ -473,7 +473,7 @@ template {
     width: 45%;
   }
 
-  .second-col {
+  .second-col, .third-col {
     float: left;
     background-color: rgb(160, 235, 210);
     margin: 0;
