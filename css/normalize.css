@@ -11,6 +11,8 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 62.5%;
+  /* google search BBC website for font */
 }
 
 /* Sections
@@ -22,6 +24,7 @@ html {
 
 body {
   margin: 0;
+  font-family: "BBC Reith Sans", BBCReithSans-fallback, sans-serif;
 }
 
 /**
@@ -372,16 +375,6 @@ template {
 /* BASE STYLES
 /*******************************************/
 
-html {
-  font-size: 62.5%;
-  /* google search BBC website for font */
-}
-
-body {
-  margin: 0;
-  font-family: "BBC Reith Sans", BBCReithSans-fallback, sans-serif;
-}
-
 /* @media (max-width: 500px) {
   
 
@@ -448,7 +441,6 @@ body {
   }
 
   div {
-    float: left;
     width: 100%;
   }
 
@@ -457,7 +449,6 @@ body {
     margin: 0;
     padding: 30px;
     width: 80%;
-    font-size: 3em;
   }
 
   div span {
@@ -467,6 +458,14 @@ body {
     text-align: right;
     padding: 35.5px 15px;
     color: grey;
+  }
+
+  section {
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(135, 194, 246);
+    width: 33.3%;
+    float: left;
   }
 
   .two-column {
