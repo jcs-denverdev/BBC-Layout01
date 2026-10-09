@@ -439,9 +439,12 @@ template {
     
   }
 
-  /* header nav form input {
-    height: 30px;
-  } */
+  header nav form input {
+    padding: 10px;
+    height: 50%;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
 
 
 
